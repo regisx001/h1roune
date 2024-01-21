@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { AppShell } from '@skeletonlabs/skeleton';
-	import { Header } from '$lib';
+	import { Header, Footer } from '$lib';
 </script>
 
 <AppShell>
@@ -9,4 +9,7 @@
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
+	<svelte:fragment slot="pageFooter">
+		<Footer/>
+	</svelte:fragment>
 </AppShell>

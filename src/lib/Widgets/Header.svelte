@@ -7,8 +7,10 @@
 
 <AppBar>
 	<svelte:fragment slot="lead">
-		<img class="h-12" src="{base}/icon.png" alt="" srcset="">
+		<a class="flex flex-row items-center" href="{base}/">
+			<img class="h-12" src="{base}/icon.png" alt="" srcset="">
+			<h1 class="h3 px-2">H1roune</h1>
+		</a>
 	</svelte:fragment>
-	<h1 class="h3">H1roune</h1>
 	<svelte:fragment slot="trail">(actions)</svelte:fragment>
 </AppBar>

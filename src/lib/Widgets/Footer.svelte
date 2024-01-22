@@ -1,11 +1,21 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { InstagramIcon, WhatsappIcon, XIcon, BehanceIcon } from '$lib';
+	let year = new Date().getFullYear();
 </script>
 
 <section class="w-full">
-	<section class="logo-cloud gap-1 lg:grid lg:grid-cols-2 xl:flex xl:items-center xl:content-center w-full px-4 lg:px-20  pb-2">
-		<a class="logo-item rounded-md" href="{base}/">
+	<hr class="mx-4 lg:mx-20 pb-6 opacity-20"/>
+	<section class="flex items-center justify-between px-4 lg:px-20 pb-1 lg:pb-6">
+		<div>
+			Copyright © {year} Haroune MA
+		</div>
+		<div>
+			Casablanca, Morocco
+		</div>
+	</section>
+	<section class="logo-cloud gap-1  lg:grid lg:grid-cols-2 xl:flex xl:items-center xl:content-center w-full px-4 lg:px-20  pb-2">
+		<a class="logo-item rounded-md " href="{base}/">
 			<span><InstagramIcon /></span>
 			<span>Instagram</span>
 		</a>

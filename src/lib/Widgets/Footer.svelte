@@ -8,10 +8,13 @@
 	<hr class="mx-4 lg:mx-20 pb-6 opacity-20"/>
 	<section class="flex items-center justify-between px-4 lg:px-20 pb-1 lg:pb-6">
 		<div>
-			Copyright © {year} Haroune MA
+			Copyright © <span class="font-bold">{year}</span> 
+			<span class="italic font-extrabold">
+				Haroune MA
+			</span>
 		</div>
 		<div>
-			Casablanca, Morocco
+			Casablanca, <span class="font-bold">Morocco</span>
 		</div>
 	</section>
 	<section class="logo-cloud gap-1  lg:grid lg:grid-cols-2 xl:flex xl:items-center xl:content-center w-full px-4 lg:px-20  pb-2">

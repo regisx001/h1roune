@@ -8,7 +8,8 @@
 	<hr class="mx-4 lg:mx-20 pb-6 opacity-20"/>
 	<section class="flex items-center justify-between px-4 lg:px-20 pb-1 lg:pb-6">
 		<div>
-			Copyright © <span class="font-bold">{year}</span> 
+			© Copyright <span class="font-bold">{year}</span> 
+			All rights reserved.
 			<span class="italic font-extrabold">
 				Haroune MA
 			</span>

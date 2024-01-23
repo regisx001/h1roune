@@ -12,5 +12,7 @@
 			<h1 class="h3 px-2">H1roune</h1>
 		</a>
 	</svelte:fragment>
-	<svelte:fragment slot="trail">(actions)</svelte:fragment>
+	<svelte:fragment slot="trail">
+		<a href="{base}/about" class="btn variant-filled">About</a>
+	</svelte:fragment>
 </AppBar>

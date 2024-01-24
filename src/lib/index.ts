@@ -1,4 +1,10 @@
-// place files you want to import through the `$lib` alias in this folder.
+
+// Components
+export {default as LProjectCard} from "./Components/LatestProjectsCard.svelte"
+
+
+
+
 
 // Widgets
 export {default as Header} from "./Widgets/Header.svelte"

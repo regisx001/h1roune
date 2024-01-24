@@ -16,6 +16,7 @@
 		desc2: 'A Casablanca based , model/talent passionate about Classic style. ',
 		cover: base + '/assets/zaak/cover.jpg',
 		insta: 'https://www.instagram.com/trulyzaak_106/',
+        reversed:false,
 	};
 </script>
 

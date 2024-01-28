@@ -18,6 +18,7 @@
 		insta: 'https://www.instagram.com/trulyzaak_106/',
         reversed:false,
 	};
+
 </script>
 
 <svelte:head>
@@ -29,10 +30,12 @@
 		<div class="">Behind every <span class="font-bold text-secondary-600"> PICTURE </span>,</div>
 		<div class="lg:mx-80 pt-6 underline text-orange-600">A LONG STORY.</div>
 	</header> -->
+    <hr class="opacity-40 my-10">
+	
 	<header class="pt-10">
 		<h1 class="h1">Latest Project :</h1>
 	</header>
 	<LProjectCard {...props1} />
-    <hr>
-	<LProjectCard {...props2} />
+
+	<!-- <LProjectCard {...props2} /> -->
 </section>

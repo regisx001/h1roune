@@ -14,5 +14,6 @@
 	</svelte:fragment>
 	<svelte:fragment slot="trail">
 		<a href="{base}/about" class="btn variant-filled">About</a>
+		<a href="{base}/work" class="btn variant-filled">Work</a>
 	</svelte:fragment>
 </AppBar>

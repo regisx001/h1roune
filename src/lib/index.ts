@@ -4,8 +4,6 @@ export {default as LProjectCard} from "./Components/LatestProjectsCard.svelte"
 
 
 
-
-
 // Widgets
 export {default as Header} from "./Widgets/Header.svelte"
 export {default as Footer} from "./Widgets/Footer.svelte"
